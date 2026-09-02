@@ -4,8 +4,8 @@
     {
       "category": "skip",
       "suite": "BAT",
-      "title": "\"a real touch tap opens only the release modal, never the cover lightbox too\" (desktop project)",
-      "reason": "Simula un tap táctil real; el proyecto \"desktop\" corre en Chrome de escritorio sin puntero táctil, así que Playwright se auto-salta este test ahí a propósito. Corre normal en el proyecto \"mobile\"."
+      "title": "\"a real touch tap opens only the release modal, never the cover lightbox too\" (desktop, firefox, webkit)",
+      "reason": "Simula un tap táctil real; ningún navegador de escritorio (Chrome, Firefox, WebKit) simula puntero táctil, así que Playwright se auto-salta este test en los tres. Corre normal en el proyecto \"mobile\"."
     },
     {
       "category": "skip",
@@ -20,16 +20,16 @@
       "reason": "Mismo caso que el touch-tap de arriba: necesita un dispositivo táctil, el proyecto desktop no lo simula."
     },
     {
-      "category": "not-run-by-default",
+      "category": "info",
       "suite": "cross-browser",
-      "title": "Proyectos firefox / webkit",
-      "reason": "No corren en el suite default (BAT ni RTS) ni en CI todavía — están pensados para invocarse a mano con `npm run test:crossbrowser` (Firefox + WebKit, subset @bat). Nunca se corrieron en este CI, es un chequeo manual ocasional, no una falla."
+      "title": "BAT corre 4 proyectos (desktop, mobile, firefox, webkit) en cada PR",
+      "reason": "bat-pr-check.yml instala los 3 motores (Chrome, Firefox, WebKit) y corre el subset @bat en los 4 proyectos configurados — más cobertura cross-browser real de la que parecía a simple vista. RTS, en cambio, solo instala Chrome y corre desktop+mobile (ver fix del 2026-09-02 abajo) — correrlo también en firefox/webkit alargaría bastante cada corrida nocturna, evaluar si vale la pena más adelante."
     },
     {
       "category": "info",
       "suite": "general",
-      "title": "Estado actual (corrida manual 2026-09-02)",
-      "reason": "BAT: 115 passed, 1 skip, 0 failed. RTS: 251 passed, 3 skips, 0 failed. Sin fallas reales pendientes — los 6 fallos por asserts desactualizados detectados el 2026-08-31 (extensiones .jpg viejas, href de nav viejo, etc.) ya fueron corregidos."
+      "title": "Fix 2026-09-02: RTS nightly corría 4 proyectos con solo Chrome instalado",
+      "reason": "rts-nightly.yml corría `playwright test` sin filtrar proyecto (los 4 por default) pero solo instalaba Chrome, así que firefox/webkit fallaban al lanzar el navegador (210 \"failed\" falsos). Corregido en el PR #5 a `--project=desktop --project=mobile`, que es el alcance real que \"RTS\" siempre tuvo en este proyecto."
     }
   ]
 }
