@@ -1,15 +1,15 @@
 {
   "suite": "BAT",
-  "generatedAt": "2026-09-02T16:07:53.537Z",
-  "commit": null,
-  "runUrl": null,
-  "durationMs": 85128,
+  "generatedAt": "2026-09-02T17:28:46.618Z",
+  "commit": "f178d4d",
+  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33660843513",
+  "durationMs": 209064,
   "counts": {
-    "passed": 115,
+    "passed": 229,
     "failed": 0,
-    "skipped": 1,
+    "skipped": 3,
     "flaky": 0,
-    "total": 116
+    "total": 232
   },
   "failures": [],
   "skips": [
@@ -17,6 +17,16 @@
       "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
       "title": "a real touch tap opens only the release modal, never the cover lightbox too @bat",
       "project": "desktop"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "a real touch tap opens only the release modal, never the cover lightbox too @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "a real touch tap opens only the release modal, never the cover lightbox too @bat",
+      "project": "webkit"
     }
   ]
 }
