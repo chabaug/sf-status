@@ -1,17 +1,1068 @@
 {
   "suite": "RTS",
-  "generatedAt": "2026-09-02T16:07:53.719Z",
-  "commit": null,
-  "runUrl": null,
-  "durationMs": 227107,
+  "generatedAt": "2026-09-02T16:56:01.194Z",
+  "commit": "32c4b6c",
+  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33656974380",
+  "durationMs": 520554,
   "counts": {
-    "passed": 251,
-    "failed": 0,
+    "passed": 295,
+    "failed": 210,
     "skipped": 3,
     "flaky": 0,
-    "total": 254
+    "total": 508
   },
-  "failures": [],
+  "failures": [
+    {
+      "file": "Accessibility — icon-only controls have an accessible name",
+      "title": "every icon-only button/link on index.html has a non-empty aria-label",
+      "project": "firefox"
+    },
+    {
+      "file": "Accessibility — icon-only controls have an accessible name",
+      "title": "every icon-only button/link on catalogo.html has a non-empty aria-label @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Accessibility — icon-only controls have an accessible name",
+      "title": "every icon-only button/link on videoclips.html has a non-empty aria-label",
+      "project": "firefox"
+    },
+    {
+      "file": "Accessibility — icon-only controls have an accessible name",
+      "title": "every icon-only button/link on eventos.html has a non-empty aria-label",
+      "project": "firefox"
+    },
+    {
+      "file": "Accessibility — icon-only controls have an accessible name",
+      "title": "every icon-only button/link on nosotros.html has a non-empty aria-label",
+      "project": "firefox"
+    },
+    {
+      "file": "Accessibility — icon-only controls have an accessible name",
+      "title": "every icon-only button/link on index.html has a non-empty aria-label",
+      "project": "webkit"
+    },
+    {
+      "file": "Accessibility — icon-only controls have an accessible name",
+      "title": "every icon-only button/link on catalogo.html has a non-empty aria-label @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Accessibility — icon-only controls have an accessible name",
+      "title": "every icon-only button/link on videoclips.html has a non-empty aria-label",
+      "project": "webkit"
+    },
+    {
+      "file": "Accessibility — icon-only controls have an accessible name",
+      "title": "every icon-only button/link on eventos.html has a non-empty aria-label",
+      "project": "webkit"
+    },
+    {
+      "file": "Accessibility — icon-only controls have an accessible name",
+      "title": "every icon-only button/link on nosotros.html has a non-empty aria-label",
+      "project": "webkit"
+    },
+    {
+      "file": "Accessibility — catalog grid images carry a real, descriptive alt",
+      "title": "every catalog-item cover in the grid has a non-empty alt attribute @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Accessibility — catalog grid images carry a real, descriptive alt",
+      "title": "every catalog-item cover in the grid has a non-empty alt attribute @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Accessibility — modal backdrops are dismissable, not just the close button",
+      "title": "clicking the release modal backdrop (outside the card) closes it @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Accessibility — modal backdrops are dismissable, not just the close button",
+      "title": "clicking the artist modal backdrop (outside the card) closes it @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Accessibility — modal backdrops are dismissable, not just the close button",
+      "title": "clicking the release modal backdrop (outside the card) closes it @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Accessibility — modal backdrops are dismissable, not just the close button",
+      "title": "clicking the artist modal backdrop (outside the card) closes it @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Accessibility — hamburger and theme toggle are keyboard-operable",
+      "title": "Tab reaches the theme toggle and Enter activates it @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Accessibility — hamburger and theme toggle are keyboard-operable",
+      "title": "Tab reaches the nav hamburger and Enter opens the menu @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Accessibility — hamburger and theme toggle are keyboard-operable",
+      "title": "Tab reaches the theme toggle and Enter activates it @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Accessibility — hamburger and theme toggle are keyboard-operable",
+      "title": "Tab reaches the nav hamburger and Enter opens the menu @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — no-photo placeholder",
+      "title": "renders the placeholder initial in the grid instead of a broken image",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — no-photo placeholder",
+      "title": "renders the placeholder initial in the modal too",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — no-photo placeholder",
+      "title": "renders the placeholder initial in the grid instead of a broken image",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — no-photo placeholder",
+      "title": "renders the placeholder initial in the modal too",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — grid",
+      "title": "grid renders 24 artist cards @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — grid",
+      "title": "artists with a photo render an img, not the placeholder",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — grid",
+      "title": "grid renders 24 artist cards @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — grid",
+      "title": "artists with a photo render an img, not the placeholder",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "clicking a card opens the modal with that artist's name and photo @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "no bio section is shown (feature deferred, not shipped half-done)",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "Catálogo principal lists every solo release for a single-artist act",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "También aparece en shows guest releases with their co-artists listed",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "a collab-only release does not pollute a collaborator's Catálogo principal",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "guest-membership credits are cross-referenced even when the artist field never names the guest (Guido Antonucci in LHDM/Quintacolumna)",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "Comportamiento (Augusto Nasso) and REGIREXX both show up as LHDM guests",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "excluded collaborators (e.g. Larilium, Juampi Diaz) never get their own card",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "closing the modal via the close button removes the open class",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "clicking a card opens the modal with that artist's name and photo @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "no bio section is shown (feature deferred, not shipped half-done)",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "Catálogo principal lists every solo release for a single-artist act",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "También aparece en shows guest releases with their co-artists listed",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "a collab-only release does not pollute a collaborator's Catálogo principal",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "guest-membership credits are cross-referenced even when the artist field never names the guest (Guido Antonucci in LHDM/Quintacolumna)",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "Comportamiento (Augusto Nasso) and REGIREXX both show up as LHDM guests",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "excluded collaborators (e.g. Larilium, Juampi Diaz) never get their own card",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — modal",
+      "title": "closing the modal via the close button removes the open class",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — Instagram and Spotify buttons",
+      "title": "Instagram button is an icon (no visible text) and links to the confirmed handle",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — Instagram and Spotify buttons",
+      "title": "Instagram button is hidden for an artist with no confirmed handle",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — Instagram and Spotify buttons",
+      "title": "Spotify button uses the confirmed artist profile URL when one exists",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — Instagram and Spotify buttons",
+      "title": "Spotify button falls back to a search URL when no confirmed artist profile exists",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — Instagram and Spotify buttons",
+      "title": "Instagram button is an icon (no visible text) and links to the confirmed handle",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — Instagram and Spotify buttons",
+      "title": "Instagram button is hidden for an artist with no confirmed handle",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — Instagram and Spotify buttons",
+      "title": "Spotify button uses the confirmed artist profile URL when one exists",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — Instagram and Spotify buttons",
+      "title": "Spotify button falls back to a search URL when no confirmed artist profile exists",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — band members",
+      "title": "a real band shows its member names",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — band members",
+      "title": "a solo act shows no members line",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — band members",
+      "title": "Quintacolumna and Comportamiento are treated as solo pseudonyms, not bands (no members line)",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — band members",
+      "title": "a real band shows its member names",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — band members",
+      "title": "a solo act shows no members line",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — band members",
+      "title": "Quintacolumna and Comportamiento are treated as solo pseudonyms, not bands (no members line)",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — release modal integration",
+      "title": "clicking a release row opens the same release modal used on Catálogo, on top of the artist modal @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — release modal integration",
+      "title": "closing the release modal returns to the artist modal, not the bare page",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — release modal integration",
+      "title": "Escape closes the release modal first, then the artist modal on a second press",
+      "project": "firefox"
+    },
+    {
+      "file": "Artistas — release modal integration",
+      "title": "clicking a release row opens the same release modal used on Catálogo, on top of the artist modal @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — release modal integration",
+      "title": "closing the release modal returns to the artist modal, not the bare page",
+      "project": "webkit"
+    },
+    {
+      "file": "Artistas — release modal integration",
+      "title": "Escape closes the release modal first, then the artist modal on a second press",
+      "project": "webkit"
+    },
+    {
+      "file": "Internal navigation — no broken links or console errors, on every page",
+      "title": "index.html: nav links all resolve 200 and the page loads with no JS errors",
+      "project": "firefox"
+    },
+    {
+      "file": "Internal navigation — no broken links or console errors, on every page",
+      "title": "catalogo.html: nav links all resolve 200 and the page loads with no JS errors",
+      "project": "firefox"
+    },
+    {
+      "file": "Internal navigation — no broken links or console errors, on every page",
+      "title": "videoclips.html: nav links all resolve 200 and the page loads with no JS errors",
+      "project": "firefox"
+    },
+    {
+      "file": "Internal navigation — no broken links or console errors, on every page",
+      "title": "eventos.html: nav links all resolve 200 and the page loads with no JS errors",
+      "project": "firefox"
+    },
+    {
+      "file": "Internal navigation — no broken links or console errors, on every page",
+      "title": "nosotros.html: nav links all resolve 200 and the page loads with no JS errors",
+      "project": "firefox"
+    },
+    {
+      "file": "Internal navigation — no broken links or console errors, on every page",
+      "title": "index.html: nav links all resolve 200 and the page loads with no JS errors",
+      "project": "webkit"
+    },
+    {
+      "file": "Internal navigation — no broken links or console errors, on every page",
+      "title": "catalogo.html: nav links all resolve 200 and the page loads with no JS errors",
+      "project": "webkit"
+    },
+    {
+      "file": "Internal navigation — no broken links or console errors, on every page",
+      "title": "videoclips.html: nav links all resolve 200 and the page loads with no JS errors",
+      "project": "webkit"
+    },
+    {
+      "file": "Internal navigation — no broken links or console errors, on every page",
+      "title": "eventos.html: nav links all resolve 200 and the page loads with no JS errors",
+      "project": "webkit"
+    },
+    {
+      "file": "Internal navigation — no broken links or console errors, on every page",
+      "title": "nosotros.html: nav links all resolve 200 and the page loads with no JS errors",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — grid & search",
+      "title": "grid renders 61 items and coverflow mirrors them on load @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — grid & search",
+      "title": "search filters the grid, the coverflow and the live count; shows the empty state for a nonsense query @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — grid & search",
+      "title": "mobile: search field is collapsed behind a magnifying-glass button, revealed on click",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — grid & search",
+      "title": "grid renders 61 items and coverflow mirrors them on load @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — grid & search",
+      "title": "search filters the grid, the coverflow and the live count; shows the empty state for a nonsense query @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — grid & search",
+      "title": "mobile: search field is collapsed behind a magnifying-glass button, revealed on click",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "opening a single-track release hides the Canciones section and shows its SF number @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "opening a multi-track release shows the Canciones section with the right count",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "an album (empty suffix) shows the Álbum type label",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "credits render as HTML with @handles linked to Instagram",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "a release with no credits shows the pending placeholder instead",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "video button appears for a release with a video and is absent otherwise",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "a release with two videos (LAM) gets two distinct per-track video buttons",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "video/streaming links sit before the tracklist and credits in DOM order",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "closing the modal via the close button removes the open class",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "clicking a grid card opens the modal for that exact release @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "opening a single-track release hides the Canciones section and shows its SF number @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "opening a multi-track release shows the Canciones section with the right count",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "an album (empty suffix) shows the Álbum type label",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "credits render as HTML with @handles linked to Instagram",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "a release with no credits shows the pending placeholder instead",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "video button appears for a release with a video and is absent otherwise",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "a release with two videos (LAM) gets two distinct per-track video buttons",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "video/streaming links sit before the tracklist and credits in DOM order",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "closing the modal via the close button removes the open class",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — release modal",
+      "title": "clicking a grid card opens the modal for that exact release @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — Escuchar picker",
+      "title": "opens with the 5 always-on services (no Bandcamp) for a release with no confirmed streaming links",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Escuchar picker",
+      "title": "adds a Bandcamp option, using the confirmed link, only for releases that have one",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Escuchar picker",
+      "title": "closes via its own close button without closing the release modal underneath",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Escuchar picker",
+      "title": "opens with the 5 always-on services (no Bandcamp) for a release with no confirmed streaming links",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — Escuchar picker",
+      "title": "adds a Bandcamp option, using the confirmed link, only for releases that have one",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — Escuchar picker",
+      "title": "closes via its own close button without closing the release modal underneath",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — cover lightbox",
+      "title": "clicking the cover opens a lightbox with the same image, closes on click @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — cover lightbox",
+      "title": "clicking the cover opens a lightbox with the same image, closes on click @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — scroll hint",
+      "title": "hides when content fits, appears and flips direction when it overflows",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — scroll hint",
+      "title": "hides when content fits, appears and flips direction when it overflows",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "dragging the stage with the mouse advances the centred cover @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "clicking the centred cover (no drag) opens its ficha directly @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "clicking a side cover (no drag) does not open any ficha @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "a real touch tap opens only the release modal, never the cover lightbox too @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "on the touch-capable mobile browser, a drag (not a tap) advances the centred cover and opens nothing",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "keyboard: arrow keys move the centred cover, Enter opens whatever is now centred",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "dragging the stage with the mouse advances the centred cover @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "clicking the centred cover (no drag) opens its ficha directly @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "clicking a side cover (no drag) does not open any ficha @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "a real touch tap opens only the release modal, never the cover lightbox too @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "on the touch-capable mobile browser, a drag (not a tap) advances the centred cover and opens nothing",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "keyboard: arrow keys move the centred cover, Enter opens whatever is now centred",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — Lanzamientos / Artistas buttons open, switch and collapse the panel",
+      "title": "mobile: starts on the coverflow only; the active button re-clicked collapses back to it",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Lanzamientos / Artistas buttons open, switch and collapse the panel",
+      "title": "desktop: starts on the coverflow only; the active button re-clicked collapses back to it @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Lanzamientos / Artistas buttons open, switch and collapse the panel",
+      "title": "tablet width (701–1024px) hides both buttons entirely, coverflow only",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Lanzamientos / Artistas buttons open, switch and collapse the panel",
+      "title": "Artistas button opens straight to the artist grid; switching to Lanzamientos keeps the panel open @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Lanzamientos / Artistas buttons open, switch and collapse the panel",
+      "title": "artistas.html redirects into the panel already open on the Artistas tab",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Lanzamientos / Artistas buttons open, switch and collapse the panel",
+      "title": "mobile: starts on the coverflow only; the active button re-clicked collapses back to it",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — Lanzamientos / Artistas buttons open, switch and collapse the panel",
+      "title": "desktop: starts on the coverflow only; the active button re-clicked collapses back to it @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — Lanzamientos / Artistas buttons open, switch and collapse the panel",
+      "title": "tablet width (701–1024px) hides both buttons entirely, coverflow only",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — Lanzamientos / Artistas buttons open, switch and collapse the panel",
+      "title": "Artistas button opens straight to the artist grid; switching to Lanzamientos keeps the panel open @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — Lanzamientos / Artistas buttons open, switch and collapse the panel",
+      "title": "artistas.html redirects into the panel already open on the Artistas tab",
+      "project": "webkit"
+    },
+    {
+      "file": "Eventos",
+      "title": "Próximos shows: empty-state message and populated grid are mutually exclusive",
+      "project": "firefox"
+    },
+    {
+      "file": "Eventos",
+      "title": "an upcoming show with a real ticket link renders an active button instead of \"próximamente\"",
+      "project": "firefox"
+    },
+    {
+      "file": "Eventos",
+      "title": "past-events grid: empty-state message and populated grid are mutually exclusive @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Eventos",
+      "title": "if past-show flyers are present, each has an image, name, date and opens a lightbox @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Eventos",
+      "title": "Próximos shows: empty-state message and populated grid are mutually exclusive",
+      "project": "webkit"
+    },
+    {
+      "file": "Eventos",
+      "title": "an upcoming show with a real ticket link renders an active button instead of \"próximamente\"",
+      "project": "webkit"
+    },
+    {
+      "file": "Eventos",
+      "title": "past-events grid: empty-state message and populated grid are mutually exclusive @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Eventos",
+      "title": "if past-show flyers are present, each has an image, name, date and opens a lightbox @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Catalogo modals — scroll lock",
+      "title": "closing after hopping between artists via bio links fully unlocks scroll @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Catalogo modals — scroll lock",
+      "title": "closing a release opened from inside the artist modal, then the artist modal, fully unlocks scroll @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Catalogo modals — scroll lock",
+      "title": "closing after hopping between artists via bio links fully unlocks scroll @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Catalogo modals — scroll lock",
+      "title": "closing a release opened from inside the artist modal, then the artist modal, fully unlocks scroll @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Nav — omits the current page (and Artistas, folded into Catálogo) and hamburger menu",
+      "title": "nav shows the other 4 pages, not itself or Artistas, on index.html",
+      "project": "firefox"
+    },
+    {
+      "file": "Nav — omits the current page (and Artistas, folded into Catálogo) and hamburger menu",
+      "title": "nav shows the other 4 pages, not itself or Artistas, on catalogo.html @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Nav — omits the current page (and Artistas, folded into Catálogo) and hamburger menu",
+      "title": "nav shows the other 4 pages, not itself or Artistas, on videoclips.html",
+      "project": "firefox"
+    },
+    {
+      "file": "Nav — omits the current page (and Artistas, folded into Catálogo) and hamburger menu",
+      "title": "nav shows the other 4 pages, not itself or Artistas, on eventos.html",
+      "project": "firefox"
+    },
+    {
+      "file": "Nav — omits the current page (and Artistas, folded into Catálogo) and hamburger menu",
+      "title": "nav shows the other 4 pages, not itself or Artistas, on nosotros.html",
+      "project": "firefox"
+    },
+    {
+      "file": "Nav — omits the current page (and Artistas, folded into Catálogo) and hamburger menu",
+      "title": "hamburger toggle is hidden on desktop width and the links show inline @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Nav — omits the current page (and Artistas, folded into Catálogo) and hamburger menu",
+      "title": "below the breakpoint, links are hidden until the hamburger is clicked, then toggle back closed @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Nav — omits the current page (and Artistas, folded into Catálogo) and hamburger menu",
+      "title": "nav shows the other 4 pages, not itself or Artistas, on index.html",
+      "project": "webkit"
+    },
+    {
+      "file": "Nav — omits the current page (and Artistas, folded into Catálogo) and hamburger menu",
+      "title": "nav shows the other 4 pages, not itself or Artistas, on catalogo.html @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Nav — omits the current page (and Artistas, folded into Catálogo) and hamburger menu",
+      "title": "nav shows the other 4 pages, not itself or Artistas, on videoclips.html",
+      "project": "webkit"
+    },
+    {
+      "file": "Nav — omits the current page (and Artistas, folded into Catálogo) and hamburger menu",
+      "title": "nav shows the other 4 pages, not itself or Artistas, on eventos.html",
+      "project": "webkit"
+    },
+    {
+      "file": "Nav — omits the current page (and Artistas, folded into Catálogo) and hamburger menu",
+      "title": "nav shows the other 4 pages, not itself or Artistas, on nosotros.html",
+      "project": "webkit"
+    },
+    {
+      "file": "Nav — omits the current page (and Artistas, folded into Catálogo) and hamburger menu",
+      "title": "hamburger toggle is hidden on desktop width and the links show inline @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Nav — omits the current page (and Artistas, folded into Catálogo) and hamburger menu",
+      "title": "below the breakpoint, links are hidden until the hamburger is clicked, then toggle back closed @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Home page (index.html)",
+      "title": "shows a fixed single-video embed, not a channel-uploads playlist @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Home page (index.html)",
+      "title": "embeds the Spotify playlist",
+      "project": "firefox"
+    },
+    {
+      "file": "Home page (index.html)",
+      "title": "nav links to the other 4 pages (not itself) and none are broken (200 OK)",
+      "project": "firefox"
+    },
+    {
+      "file": "Home page (index.html)",
+      "title": "Último video / Último lanzamiento order by real date, not by the release the video happens to promote @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Home page (index.html)",
+      "title": "shows a fixed single-video embed, not a channel-uploads playlist @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Home page (index.html)",
+      "title": "embeds the Spotify playlist",
+      "project": "webkit"
+    },
+    {
+      "file": "Home page (index.html)",
+      "title": "nav links to the other 4 pages (not itself) and none are broken (200 OK)",
+      "project": "webkit"
+    },
+    {
+      "file": "Home page (index.html)",
+      "title": "Último video / Último lanzamiento order by real date, not by the release the video happens to promote @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Title entrance animation",
+      "title": "index.html title has the mask-and-rise animation",
+      "project": "firefox"
+    },
+    {
+      "file": "Title entrance animation",
+      "title": "catalogo.html title has the mask-and-rise animation @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Title entrance animation",
+      "title": "videoclips.html title has the mask-and-rise animation",
+      "project": "firefox"
+    },
+    {
+      "file": "Title entrance animation",
+      "title": "eventos.html title has the mask-and-rise animation",
+      "project": "firefox"
+    },
+    {
+      "file": "Title entrance animation",
+      "title": "nosotros.html title has the mask-and-rise animation",
+      "project": "firefox"
+    },
+    {
+      "file": "Title entrance animation",
+      "title": "index.html title has the mask-and-rise animation",
+      "project": "webkit"
+    },
+    {
+      "file": "Title entrance animation",
+      "title": "catalogo.html title has the mask-and-rise animation @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Title entrance animation",
+      "title": "videoclips.html title has the mask-and-rise animation",
+      "project": "webkit"
+    },
+    {
+      "file": "Title entrance animation",
+      "title": "eventos.html title has the mask-and-rise animation",
+      "project": "webkit"
+    },
+    {
+      "file": "Title entrance animation",
+      "title": "nosotros.html title has the mask-and-rise animation",
+      "project": "webkit"
+    },
+    {
+      "file": "Nosotros page",
+      "title": "shows the YouTube, Spotify, Instagram, X and TikTok follow links @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Nosotros page",
+      "title": "contact form sends the entered fields to Web3Forms and shows a success message @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Nosotros page",
+      "title": "contact form requires name, a validly-formatted email, and a message before it will submit",
+      "project": "firefox"
+    },
+    {
+      "file": "Nosotros page",
+      "title": "contact form shows an error message if the request fails",
+      "project": "firefox"
+    },
+    {
+      "file": "Nosotros page",
+      "title": "shows the YouTube, Spotify, Instagram, X and TikTok follow links @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Nosotros page",
+      "title": "contact form sends the entered fields to Web3Forms and shows a success message @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Nosotros page",
+      "title": "contact form requires name, a validly-formatted email, and a message before it will submit",
+      "project": "webkit"
+    },
+    {
+      "file": "Nosotros page",
+      "title": "contact form shows an error message if the request fails",
+      "project": "webkit"
+    },
+    {
+      "file": "Cross-page navigation",
+      "title": "clicking through Inicio → Catálogo → Videoclips → Eventos → Nosotros lands on the right page each time @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Cross-page navigation",
+      "title": "clicking through Inicio → Catálogo → Videoclips → Eventos → Nosotros lands on the right page each time @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Home page — ticket banner",
+      "title": "stays hidden when no upcoming event has a ticket link",
+      "project": "firefox"
+    },
+    {
+      "file": "Home page — ticket banner",
+      "title": "shows the single event name and links straight to its ticket URL when only one is active @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Home page — ticket banner",
+      "title": "concatenates names soonest-first and links to Eventos when more than one is active",
+      "project": "firefox"
+    },
+    {
+      "file": "Home page — ticket banner",
+      "title": "renders two identical, container-filling groups for a seamless marquee loop, with a positive animation duration",
+      "project": "firefox"
+    },
+    {
+      "file": "Home page — ticket banner",
+      "title": "banner text renders in white for legibility against the highlight background",
+      "project": "firefox"
+    },
+    {
+      "file": "Home page — ticket banner",
+      "title": "stays hidden when no upcoming event has a ticket link",
+      "project": "webkit"
+    },
+    {
+      "file": "Home page — ticket banner",
+      "title": "shows the single event name and links straight to its ticket URL when only one is active @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Home page — ticket banner",
+      "title": "concatenates names soonest-first and links to Eventos when more than one is active",
+      "project": "webkit"
+    },
+    {
+      "file": "Home page — ticket banner",
+      "title": "renders two identical, container-filling groups for a seamless marquee loop, with a positive animation duration",
+      "project": "webkit"
+    },
+    {
+      "file": "Home page — ticket banner",
+      "title": "banner text renders in white for legibility against the highlight background",
+      "project": "webkit"
+    },
+    {
+      "file": "Header wordmark on narrow viewports",
+      "title": "shows icon + text on desktop, icon only below the nav breakpoint",
+      "project": "firefox"
+    },
+    {
+      "file": "Header wordmark on narrow viewports",
+      "title": "shows icon + text on desktop, icon only below the nav breakpoint",
+      "project": "webkit"
+    },
+    {
+      "file": "Videoclips",
+      "title": "renders at least 17 video cards with thumbnails @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Videoclips",
+      "title": "cards have real spacing between them, not edge-to-edge",
+      "project": "firefox"
+    },
+    {
+      "file": "Videoclips",
+      "title": "every card links to a real youtube URL matching its data-yt id",
+      "project": "firefox"
+    },
+    {
+      "file": "Videoclips",
+      "title": "clicking a card opens an inline lightbox player instead of navigating away @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Videoclips",
+      "title": "closing the lightbox clears the iframe src so playback actually stops",
+      "project": "firefox"
+    },
+    {
+      "file": "Videoclips",
+      "title": "renders at least 17 video cards with thumbnails @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Videoclips",
+      "title": "cards have real spacing between them, not edge-to-edge",
+      "project": "webkit"
+    },
+    {
+      "file": "Videoclips",
+      "title": "every card links to a real youtube URL matching its data-yt id",
+      "project": "webkit"
+    },
+    {
+      "file": "Videoclips",
+      "title": "clicking a card opens an inline lightbox player instead of navigating away @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Videoclips",
+      "title": "closing the lightbox clears the iframe src so playback actually stops",
+      "project": "webkit"
+    }
+  ],
   "skips": [
     {
       "file": "Catálogo — grid & search",
