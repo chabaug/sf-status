@@ -1,0 +1,32 @@
+{
+  "suite": "RTS",
+  "generatedAt": "2026-09-02T16:07:53.719Z",
+  "commit": null,
+  "runUrl": null,
+  "durationMs": 227107,
+  "counts": {
+    "passed": 251,
+    "failed": 0,
+    "skipped": 3,
+    "flaky": 0,
+    "total": 254
+  },
+  "failures": [],
+  "skips": [
+    {
+      "file": "Catálogo — grid & search",
+      "title": "mobile: search field is collapsed behind a magnifying-glass button, revealed on click",
+      "project": "desktop"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "a real touch tap opens only the release modal, never the cover lightbox too @bat",
+      "project": "desktop"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "on the touch-capable mobile browser, a drag (not a tap) advances the centred cover and opens nothing",
+      "project": "desktop"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-09-02",
+  "items": [
+    {
+      "category": "esperando-terceros",
+      "title": "Fiebre Lunar Vol. 2 — sáb 3 oct 2026, Quetrén Club Cultural",
+      "detail": "Radio Mercurio, Lu Kompel, Emi Esparza + DJs. Oculto de Eventos y del banner de inicio hasta tener el link de venta (Passline) y el flyer. Datos completos guardados comentados en assets/events-data.js, listos para reactivar apenas lleguen."
+    },
+    {
+      "category": "esperando-terceros",
+      "title": "Presentación de UGAM — mié 28 oct 2026, La Tangente",
+      "detail": "Lautaro Rá. Mismo estado que Fiebre Lunar Vol. 2: esperando link de entradas antes de mostrarse."
+    },
+    {
+      "category": "decision-pendiente",
+      "title": "¿Agregar SoundCloud como 6to servicio en el picker Escuchar?",
+      "detail": "Quedó sugerido (no confirmado) durante la investigación de streaming links — es común en esta escena, pero nunca se verificaron links reales por artista. Necesita el ok de Augusto antes de invertir tiempo en buscarlos."
+    },
+    {
+      "category": "dato-menor-sin-resolver",
+      "title": "~10 créditos con @handle sin nombre real confirmado",
+      "detail": "@bela.img, @audio_warrior, @pol.maeda, @jvleveroni, @victor_volpi_rec, @xiluaoriox, @el_cocomiel, @darealande, @nachobiondo (solo 'Nacho', sin apellido), @santiag0santiago (nombre = handle). Se dejaron a propósito así tras agotar Instagram/Bandcamp/búsqueda — no se van a re-buscar sin una pista nueva."
+    },
+    {
+      "category": "info",
+      "title": "Videoclip oficial: 16 de 61 releases",
+      "detail": "No es un gap de datos — la mayoría de los lanzamientos simplemente nunca tuvo un videoclip propio. Streaming (Spotify/YouTube Music/Tidal) y créditos sí están 61/61 completos."
+    },
+    {
+      "category": "info",
+      "title": "URL vieja de GitHub Pages superada",
+      "detail": "chabaug.github.io/segunda-fundacion-web quedó obsoleta desde que el sitio vive en el dominio propio https://segundafundacion.com.ar (Netlify). No compartir esa URL vieja."
+    }
+  ]
+}

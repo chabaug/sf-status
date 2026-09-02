@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-09-02",
+  "items": [
+    {
+      "category": "skip",
+      "suite": "BAT",
+      "title": "\"a real touch tap opens only the release modal, never the cover lightbox too\" (desktop project)",
+      "reason": "Simula un tap táctil real; el proyecto \"desktop\" corre en Chrome de escritorio sin puntero táctil, así que Playwright se auto-salta este test ahí a propósito. Corre normal en el proyecto \"mobile\"."
+    },
+    {
+      "category": "skip",
+      "suite": "RTS",
+      "title": "\"mobile: search field is collapsed behind a magnifying-glass button...\" (desktop project)",
+      "reason": "Verifica un comportamiento exclusivo del layout angosto (buscador colapsado detrás de una lupa). No aplica al viewport de escritorio, por diseño."
+    },
+    {
+      "category": "skip",
+      "suite": "RTS",
+      "title": "\"on the touch-capable mobile browser, a drag (not a tap) advances the centred cover...\" (desktop project)",
+      "reason": "Mismo caso que el touch-tap de arriba: necesita un dispositivo táctil, el proyecto desktop no lo simula."
+    },
+    {
+      "category": "not-run-by-default",
+      "suite": "cross-browser",
+      "title": "Proyectos firefox / webkit",
+      "reason": "No corren en el suite default (BAT ni RTS) ni en CI todavía — están pensados para invocarse a mano con `npm run test:crossbrowser` (Firefox + WebKit, subset @bat). Nunca se corrieron en este CI, es un chequeo manual ocasional, no una falla."
+    },
+    {
+      "category": "info",
+      "suite": "general",
+      "title": "Estado actual (corrida manual 2026-09-02)",
+      "reason": "BAT: 115 passed, 1 skip, 0 failed. RTS: 251 passed, 3 skips, 0 failed. Sin fallas reales pendientes — los 6 fallos por asserts desactualizados detectados el 2026-08-31 (extensiones .jpg viejas, href de nav viejo, etc.) ya fueron corregidos."
+    }
+  ]
+}

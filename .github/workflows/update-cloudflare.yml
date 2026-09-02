@@ -1,0 +1,30 @@
+name: Update Cloudflare traffic data
+
+on:
+  schedule:
+    - cron: '0 12 * * *' # 09:00 ART daily
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Query Cloudflare Web Analytics
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_WEB_ANALYTICS_SITE_TAG: ${{ secrets.CF_WEB_ANALYTICS_SITE_TAG }}
+        run: node scripts/query_cloudflare.js 30
+
+      - name: Commit updated data
+        run: |
+          git config user.name "sf-status bot"
+          git config user.email "actions@github.com"
+          git add data/cloudflare-latest.json
+          git diff --staged --quiet && echo "No changes" || git commit -m "Update Cloudflare traffic data"
+          git push

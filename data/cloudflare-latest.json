@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-09-02T00:00:00.000Z",
+  "rangeStart": "2026-08-03",
+  "rangeEnd": "2026-09-02",
+  "totalPageviews": 0,
+  "totalVisits": 0,
+  "byDate": [],
+  "topPages": [],
+  "topReferrers": [],
+  "topCountries": [],
+  "byDevice": [],
+  "note": "Cloudflare Web Analytics se instaló recién (beacon agregado 2026-09-02) — todavía no hay tráfico registrado en la ventana de 30 días. Este archivo se actualiza solo vía GitHub Actions una vez que haya datos."
+}

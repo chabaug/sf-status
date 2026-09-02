@@ -1,0 +1,22 @@
+{
+  "suite": "BAT",
+  "generatedAt": "2026-09-02T16:07:53.537Z",
+  "commit": null,
+  "runUrl": null,
+  "durationMs": 85128,
+  "counts": {
+    "passed": 115,
+    "failed": 0,
+    "skipped": 1,
+    "flaky": 0,
+    "total": 116
+  },
+  "failures": [],
+  "skips": [
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "a real touch tap opens only the release modal, never the cover lightbox too @bat",
+      "project": "desktop"
+    }
+  ]
+}
