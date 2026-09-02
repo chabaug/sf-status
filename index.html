@@ -121,11 +121,6 @@
     <ul class="pend" id="testPendList"></ul>
   </section>
 
-  <section>
-    <h2>Pendientes de la página <span class="meta">contenido y decisiones abiertas</span></h2>
-    <ul class="pend" id="pageTodoList"></ul>
-  </section>
-
 </main>
 
 <footer>Se actualiza solo vía GitHub Actions — BAT/RTS en cada corrida de esos workflows en segunda-fundacion-web, Cloudflare todos los días a las 09:00 ART.</footer>
@@ -252,18 +247,10 @@ async function renderPendientes() {
   data.items.forEach(item => list.appendChild(pendItem(item.category, item.title, item.reason)));
 }
 
-async function renderPageTodos() {
-  const data = await loadJSON('data/page-todos.json');
-  const list = document.getElementById('pageTodoList');
-  if (!data || !data.items.length) { list.innerHTML = '<p class="empty">Sin pendientes registrados.</p>'; return; }
-  data.items.forEach(item => list.appendChild(pendItem(item.category, item.title, item.detail)));
-}
-
 document.getElementById('lastRefresh').textContent = 'Cargado: ' + new Date().toLocaleString('es-AR');
 renderTests();
 renderCloudflare();
 renderPendientes();
-renderPageTodos();
 </script>
 
 </body>
