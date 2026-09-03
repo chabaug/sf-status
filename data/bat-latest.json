@@ -1,9 +1,9 @@
 {
   "suite": "BAT",
-  "generatedAt": "2026-09-03T05:26:43.031Z",
-  "commit": "812a0f3",
-  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33718536874",
-  "durationMs": 222138,
+  "generatedAt": "2026-09-03T05:36:55.441Z",
+  "commit": "1b00cbc",
+  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33719267314",
+  "durationMs": 197149,
   "counts": {
     "passed": 241,
     "failed": 0,
