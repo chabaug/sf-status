@@ -1,9 +1,9 @@
 {
   "suite": "RTS",
-  "generatedAt": "2026-09-03T03:15:00.319Z",
-  "commit": "6db8e70",
-  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33710170594",
-  "durationMs": 435329,
+  "generatedAt": "2026-09-03T04:01:00.120Z",
+  "commit": "c1ecad7",
+  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33712985910",
+  "durationMs": 428721,
   "counts": {
     "passed": 375,
     "failed": 0,
