@@ -22,8 +22,14 @@
     {
       "category": "info",
       "suite": "cross-browser",
-      "title": "BAT corre 4 proyectos (desktop, mobile, firefox, webkit) en cada PR; RTS corre 3 (desktop, mobile, firefox)",
-      "reason": "bat-pr-check.yml instala los 3 motores (Chrome, Firefox, WebKit) y corre el subset @bat en los 4 proyectos configurados. RTS nightly (PR #6, 2026-09-03) sumó firefox a la corrida completa (no solo @bat) — primera corrida salió 100% verde, 0 fallas nuevas. Queda pendiente evaluar si sumar también webkit a RTS vale la duración extra."
+      "title": "BAT y RTS corren los 4 proyectos (desktop, mobile, firefox, webkit)",
+      "reason": "bat-pr-check.yml corre el subset @bat en los 4 proyectos en cada PR. RTS nightly sumó firefox (PR #6) y luego webkit (PR #7, 2026-09-03) a la corrida completa (no solo @bat) — ambas primeras corridas salieron limpias tras un fix de un falso positivo en webkit (ver siguiente ítem). Gap cross-browser cerrado; sin pendientes en este frente por ahora."
+    },
+    {
+      "category": "info",
+      "suite": "RTS",
+      "title": "Fix 2026-09-03: WebKit marcaba como error el beacon bloqueado de Cloudflare Web Analytics",
+      "reason": "broken-links.spec.js falla si la página tira un error JS no capturado. WebKit bloquea el beacon de terceros de Cloudflare (cloudflareinsights.com/cdn-cgi/rum) por control de acceso y lo reporta como page error; Chrome/Firefox no. No es un bug del sitio — es el propio script de analytics. Se filtra ese mensaje específico de la aserción (PR #7)."
     },
     {
       "category": "info",
