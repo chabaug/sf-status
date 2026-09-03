@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02",
+  "generatedAt": "2026-09-03",
   "items": [
     {
       "category": "skip",
@@ -22,8 +22,8 @@
     {
       "category": "info",
       "suite": "cross-browser",
-      "title": "BAT corre 4 proyectos (desktop, mobile, firefox, webkit) en cada PR",
-      "reason": "bat-pr-check.yml instala los 3 motores (Chrome, Firefox, WebKit) y corre el subset @bat en los 4 proyectos configurados — más cobertura cross-browser real de la que parecía a simple vista. RTS, en cambio, solo instala Chrome y corre desktop+mobile (ver fix del 2026-09-02 abajo) — correrlo también en firefox/webkit alargaría bastante cada corrida nocturna, evaluar si vale la pena más adelante."
+      "title": "BAT corre 4 proyectos (desktop, mobile, firefox, webkit) en cada PR; RTS corre 3 (desktop, mobile, firefox)",
+      "reason": "bat-pr-check.yml instala los 3 motores (Chrome, Firefox, WebKit) y corre el subset @bat en los 4 proyectos configurados. RTS nightly (PR #6, 2026-09-03) sumó firefox a la corrida completa (no solo @bat) — primera corrida salió 100% verde, 0 fallas nuevas. Queda pendiente evaluar si sumar también webkit a RTS vale la duración extra."
     },
     {
       "category": "info",
