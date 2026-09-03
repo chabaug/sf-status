@@ -1,17 +1,43 @@
 {
   "suite": "RTS",
-  "generatedAt": "2026-09-03T04:01:00.120Z",
-  "commit": "c1ecad7",
-  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33712985910",
-  "durationMs": 428721,
+  "generatedAt": "2026-09-03T04:20:30.108Z",
+  "commit": "9ec83d8",
+  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33713976723",
+  "durationMs": 611493,
   "counts": {
-    "passed": 375,
-    "failed": 0,
-    "skipped": 6,
+    "passed": 494,
+    "failed": 5,
+    "skipped": 9,
     "flaky": 0,
-    "total": 381
+    "total": 508
   },
-  "failures": [],
+  "failures": [
+    {
+      "file": "Internal navigation — no broken links or console errors, on every page",
+      "title": "index.html: nav links all resolve 200 and the page loads with no JS errors",
+      "project": "webkit"
+    },
+    {
+      "file": "Internal navigation — no broken links or console errors, on every page",
+      "title": "catalogo.html: nav links all resolve 200 and the page loads with no JS errors",
+      "project": "webkit"
+    },
+    {
+      "file": "Internal navigation — no broken links or console errors, on every page",
+      "title": "videoclips.html: nav links all resolve 200 and the page loads with no JS errors",
+      "project": "webkit"
+    },
+    {
+      "file": "Internal navigation — no broken links or console errors, on every page",
+      "title": "eventos.html: nav links all resolve 200 and the page loads with no JS errors",
+      "project": "webkit"
+    },
+    {
+      "file": "Internal navigation — no broken links or console errors, on every page",
+      "title": "nosotros.html: nav links all resolve 200 and the page loads with no JS errors",
+      "project": "webkit"
+    }
+  ],
   "skips": [
     {
       "file": "Catálogo — grid & search",
@@ -24,6 +50,11 @@
       "project": "firefox"
     },
     {
+      "file": "Catálogo — grid & search",
+      "title": "mobile: search field is collapsed behind a magnifying-glass button, revealed on click",
+      "project": "webkit"
+    },
+    {
       "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
       "title": "a real touch tap opens only the release modal, never the cover lightbox too @bat",
       "project": "desktop"
@@ -42,6 +73,16 @@
       "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
       "title": "on the touch-capable mobile browser, a drag (not a tap) advances the centred cover and opens nothing",
       "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "a real touch tap opens only the release modal, never the cover lightbox too @bat",
+      "project": "webkit"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "on the touch-capable mobile browser, a drag (not a tap) advances the centred cover and opens nothing",
+      "project": "webkit"
     }
   ]
 }
