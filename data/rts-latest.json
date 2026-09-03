@@ -1,15 +1,15 @@
 {
   "suite": "RTS",
-  "generatedAt": "2026-09-02T17:44:38.929Z",
-  "commit": "63d442f",
-  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33662347971",
-  "durationMs": 295932,
+  "generatedAt": "2026-09-03T03:15:00.319Z",
+  "commit": "6db8e70",
+  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33710170594",
+  "durationMs": 435329,
   "counts": {
-    "passed": 251,
+    "passed": 375,
     "failed": 0,
-    "skipped": 3,
+    "skipped": 6,
     "flaky": 0,
-    "total": 254
+    "total": 381
   },
   "failures": [],
   "skips": [
@@ -17,6 +17,11 @@
       "file": "Catálogo — grid & search",
       "title": "mobile: search field is collapsed behind a magnifying-glass button, revealed on click",
       "project": "desktop"
+    },
+    {
+      "file": "Catálogo — grid & search",
+      "title": "mobile: search field is collapsed behind a magnifying-glass button, revealed on click",
+      "project": "firefox"
     },
     {
       "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
@@ -27,6 +32,16 @@
       "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
       "title": "on the touch-capable mobile browser, a drag (not a tap) advances the centred cover and opens nothing",
       "project": "desktop"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "a real touch tap opens only the release modal, never the cover lightbox too @bat",
+      "project": "firefox"
+    },
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "on the touch-capable mobile browser, a drag (not a tap) advances the centred cover and opens nothing",
+      "project": "firefox"
     }
   ]
 }
