@@ -1,17 +1,38 @@
 {
   "suite": "BAT",
-  "generatedAt": "2026-09-03T05:36:55.441Z",
-  "commit": "1b00cbc",
-  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33719267314",
-  "durationMs": 197149,
+  "generatedAt": "2026-09-03T05:52:22.562Z",
+  "commit": "9fa2a43",
+  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33720348814",
+  "durationMs": 237012,
   "counts": {
-    "passed": 241,
-    "failed": 0,
+    "passed": 237,
+    "failed": 4,
     "skipped": 3,
     "flaky": 0,
     "total": 244
   },
-  "failures": [],
+  "failures": [
+    {
+      "file": "Data integrity (no browser) @bat",
+      "title": "every HTML page references the same style.css version",
+      "project": "desktop"
+    },
+    {
+      "file": "Data integrity (no browser) @bat",
+      "title": "every HTML page references the same style.css version",
+      "project": "mobile"
+    },
+    {
+      "file": "Data integrity (no browser) @bat",
+      "title": "every HTML page references the same style.css version",
+      "project": "firefox"
+    },
+    {
+      "file": "Data integrity (no browser) @bat",
+      "title": "every HTML page references the same style.css version",
+      "project": "webkit"
+    }
+  ],
   "skips": [
     {
       "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
