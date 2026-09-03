@@ -1,17 +1,22 @@
 {
   "suite": "BAT",
-  "generatedAt": "2026-09-03T05:57:23.389Z",
-  "commit": "66800ed",
-  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33720697581",
-  "durationMs": 228654,
+  "generatedAt": "2026-09-03T06:14:26.869Z",
+  "commit": "5f94045",
+  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33721913494",
+  "durationMs": 252411,
   "counts": {
-    "passed": 237,
-    "failed": 4,
+    "passed": 236,
+    "failed": 5,
     "skipped": 3,
-    "flaky": 1,
+    "flaky": 0,
     "total": 244
   },
   "failures": [
+    {
+      "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
+      "title": "dragging the stage with the mouse advances the centred cover @bat",
+      "project": "desktop"
+    },
     {
       "file": "Data integrity (no browser) @bat",
       "title": "every HTML page references the same style.css version",
