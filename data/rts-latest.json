@@ -1,21 +1,21 @@
 {
   "suite": "RTS",
-  "generatedAt": "2026-09-03T16:56:32.335Z",
-  "commit": "6ab21d3",
-  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33780321225",
-  "durationMs": 721420,
+  "generatedAt": "2026-09-04T16:49:30.756Z",
+  "commit": "d25b404",
+  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33896190790",
+  "durationMs": 637496,
   "counts": {
-    "passed": 558,
+    "passed": 578,
     "failed": 1,
     "skipped": 9,
-    "flaky": 1,
-    "total": 568
+    "flaky": 0,
+    "total": 588
   },
   "failures": [
     {
       "file": "Eventos — event modal",
       "title": "event modal flyer is complete/uncropped on desktop, sized to its own aspect ratio",
-      "project": "firefox"
+      "project": "webkit"
     }
   ],
   "skips": [
