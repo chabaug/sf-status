@@ -1,17 +1,138 @@
 {
   "suite": "BAT",
-  "generatedAt": "2026-09-05T01:30:01.016Z",
-  "commit": "b2f800a",
-  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33936108729",
-  "durationMs": 200769,
+  "generatedAt": "2026-09-05T01:33:56.475Z",
+  "commit": "e771e27",
+  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33936254298",
+  "durationMs": 258321,
   "counts": {
     "passed": 245,
-    "failed": 0,
+    "failed": 24,
     "skipped": 3,
     "flaky": 0,
-    "total": 248
+    "total": 272
   },
-  "failures": [],
+  "failures": [
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "parseIsoDurationSeconds: parses hours/minutes/seconds in any combination",
+      "project": "desktop"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "parseIsoDurationSeconds: garbage input is treated as zero, not thrown on",
+      "project": "desktop"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: filters out Shorts (<=60s), keeps longer uploads",
+      "project": "desktop"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: picks the newest by publishedAt, not list order",
+      "project": "desktop"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: returns null when the pick is already the current video (no-op)",
+      "project": "desktop"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: publishedAt in the result is truncated to a plain date",
+      "project": "desktop"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "parseIsoDurationSeconds: parses hours/minutes/seconds in any combination",
+      "project": "mobile"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "parseIsoDurationSeconds: garbage input is treated as zero, not thrown on",
+      "project": "mobile"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: filters out Shorts (<=60s), keeps longer uploads",
+      "project": "mobile"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: picks the newest by publishedAt, not list order",
+      "project": "mobile"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: returns null when the pick is already the current video (no-op)",
+      "project": "mobile"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: publishedAt in the result is truncated to a plain date",
+      "project": "mobile"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "parseIsoDurationSeconds: parses hours/minutes/seconds in any combination",
+      "project": "firefox"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "parseIsoDurationSeconds: garbage input is treated as zero, not thrown on",
+      "project": "firefox"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: filters out Shorts (<=60s), keeps longer uploads",
+      "project": "firefox"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: picks the newest by publishedAt, not list order",
+      "project": "firefox"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: returns null when the pick is already the current video (no-op)",
+      "project": "firefox"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: publishedAt in the result is truncated to a plain date",
+      "project": "firefox"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "parseIsoDurationSeconds: parses hours/minutes/seconds in any combination",
+      "project": "webkit"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "parseIsoDurationSeconds: garbage input is treated as zero, not thrown on",
+      "project": "webkit"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: filters out Shorts (<=60s), keeps longer uploads",
+      "project": "webkit"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: picks the newest by publishedAt, not list order",
+      "project": "webkit"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: returns null when the pick is already the current video (no-op)",
+      "project": "webkit"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: publishedAt in the result is truncated to a plain date",
+      "project": "webkit"
+    }
+  ],
   "skips": [
     {
       "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
