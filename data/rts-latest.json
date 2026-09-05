@@ -1,25 +1,390 @@
 {
   "suite": "RTS",
-  "generatedAt": "2026-09-04T16:49:30.756Z",
-  "commit": "d25b404",
-  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33896190790",
-  "durationMs": 637496,
+  "generatedAt": "2026-09-05T15:58:08.023Z",
+  "commit": "68622aa",
+  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33975490393",
+  "durationMs": 1023187,
   "counts": {
-    "passed": 578,
-    "failed": 1,
-    "skipped": 9,
-    "flaky": 0,
-    "total": 588
+    "passed": 630,
+    "failed": 59,
+    "skipped": 39,
+    "flaky": 1,
+    "total": 728
   },
   "failures": [
     {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "correct username and password trade for the real admin token",
+      "project": "desktop"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "wrong password is rejected without leaking the token",
+      "project": "desktop"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "wrong username is rejected",
+      "project": "desktop"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "missing credentials are rejected, not treated as a match against an unset field",
+      "project": "desktop"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "non-POST methods are rejected",
+      "project": "desktop"
+    },
+    {
       "file": "Eventos — event modal",
       "title": "event modal flyer is complete/uncropped on desktop, sized to its own aspect ratio",
+      "project": "firefox"
+    },
+    {
+      "file": "Releases + Artists API (live netlify dev)",
+      "title": "rejects writes without the admin token",
+      "project": "desktop"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "slugify: lowercases, strips diacritics/punctuation, collapses to dashes",
+      "project": "desktop"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "isArtistComplete: requires both a non-empty bio and a photoKey",
+      "project": "desktop"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: a due release only publishes once its artist is complete",
+      "project": "desktop"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: a release with no matching artist at all is blocked, not crashed on",
+      "project": "desktop"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: leaves future-dated and already-published releases untouched",
+      "project": "desktop"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "toPublicRelease: strips internal fields, maps coverKey to a URL",
+      "project": "desktop"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "toPublicArtist: principal[] only lists this artist's PUBLISHED releases",
+      "project": "desktop"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "slugify: lowercases, strips diacritics/punctuation, collapses to dashes",
+      "project": "mobile"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "isArtistComplete: requires both a non-empty bio and a photoKey",
+      "project": "mobile"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: a due release only publishes once its artist is complete",
+      "project": "mobile"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: a release with no matching artist at all is blocked, not crashed on",
+      "project": "mobile"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: leaves future-dated and already-published releases untouched",
+      "project": "mobile"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "toPublicRelease: strips internal fields, maps coverKey to a URL",
+      "project": "mobile"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "toPublicArtist: principal[] only lists this artist's PUBLISHED releases",
+      "project": "mobile"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "slugify: lowercases, strips diacritics/punctuation, collapses to dashes",
+      "project": "firefox"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "isArtistComplete: requires both a non-empty bio and a photoKey",
+      "project": "firefox"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: a due release only publishes once its artist is complete",
+      "project": "firefox"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: a release with no matching artist at all is blocked, not crashed on",
+      "project": "firefox"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: leaves future-dated and already-published releases untouched",
+      "project": "firefox"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "toPublicRelease: strips internal fields, maps coverKey to a URL",
+      "project": "firefox"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "toPublicArtist: principal[] only lists this artist's PUBLISHED releases",
+      "project": "firefox"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "slugify: lowercases, strips diacritics/punctuation, collapses to dashes",
+      "project": "webkit"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "isArtistComplete: requires both a non-empty bio and a photoKey",
+      "project": "webkit"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: a due release only publishes once its artist is complete",
+      "project": "webkit"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: a release with no matching artist at all is blocked, not crashed on",
+      "project": "webkit"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: leaves future-dated and already-published releases untouched",
+      "project": "webkit"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "toPublicRelease: strips internal fields, maps coverKey to a URL",
+      "project": "webkit"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "toPublicArtist: principal[] only lists this artist's PUBLISHED releases",
+      "project": "webkit"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "parseIsoDurationSeconds: parses hours/minutes/seconds in any combination",
+      "project": "desktop"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "parseIsoDurationSeconds: garbage input is treated as zero, not thrown on",
+      "project": "desktop"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: filters out Shorts (<=60s), keeps longer uploads",
+      "project": "desktop"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: picks the newest by publishedAt, not list order",
+      "project": "desktop"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: returns null when the pick is already the current video (no-op)",
+      "project": "desktop"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: publishedAt in the result is truncated to a plain date",
+      "project": "desktop"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "parseIsoDurationSeconds: parses hours/minutes/seconds in any combination",
+      "project": "mobile"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "parseIsoDurationSeconds: garbage input is treated as zero, not thrown on",
+      "project": "mobile"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: filters out Shorts (<=60s), keeps longer uploads",
+      "project": "mobile"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: picks the newest by publishedAt, not list order",
+      "project": "mobile"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: returns null when the pick is already the current video (no-op)",
+      "project": "mobile"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: publishedAt in the result is truncated to a plain date",
+      "project": "mobile"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "parseIsoDurationSeconds: parses hours/minutes/seconds in any combination",
+      "project": "firefox"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "parseIsoDurationSeconds: garbage input is treated as zero, not thrown on",
+      "project": "firefox"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: filters out Shorts (<=60s), keeps longer uploads",
+      "project": "firefox"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: picks the newest by publishedAt, not list order",
+      "project": "firefox"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: returns null when the pick is already the current video (no-op)",
+      "project": "firefox"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: publishedAt in the result is truncated to a plain date",
+      "project": "firefox"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "parseIsoDurationSeconds: parses hours/minutes/seconds in any combination",
+      "project": "webkit"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "parseIsoDurationSeconds: garbage input is treated as zero, not thrown on",
+      "project": "webkit"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: filters out Shorts (<=60s), keeps longer uploads",
+      "project": "webkit"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: picks the newest by publishedAt, not list order",
+      "project": "webkit"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: returns null when the pick is already the current video (no-op)",
+      "project": "webkit"
+    },
+    {
+      "file": "youtube-store.mts pure logic @bat",
+      "title": "pickHomepageVideo: publishedAt in the result is truncated to a plain date",
       "project": "webkit"
     }
   ],
   "skips": [
     {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "correct username and password trade for the real admin token",
+      "project": "mobile"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "wrong password is rejected without leaking the token",
+      "project": "mobile"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "wrong username is rejected",
+      "project": "mobile"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "missing credentials are rejected, not treated as a match against an unset field",
+      "project": "mobile"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "non-POST methods are rejected",
+      "project": "mobile"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "correct username and password trade for the real admin token",
+      "project": "firefox"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "wrong password is rejected without leaking the token",
+      "project": "firefox"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "wrong username is rejected",
+      "project": "firefox"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "missing credentials are rejected, not treated as a match against an unset field",
+      "project": "firefox"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "non-POST methods are rejected",
+      "project": "firefox"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "correct username and password trade for the real admin token",
+      "project": "webkit"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "wrong password is rejected without leaking the token",
+      "project": "webkit"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "wrong username is rejected",
+      "project": "webkit"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "missing credentials are rejected, not treated as a match against an unset field",
+      "project": "webkit"
+    },
+    {
+      "file": "auth-login.mts (live netlify dev)",
+      "title": "non-POST methods are rejected",
+      "project": "webkit"
+    },
+    {
       "file": "Catálogo — grid & search",
       "title": "mobile: search field is collapsed behind a magnifying-glass button, revealed on click",
       "project": "desktop"
@@ -62,6 +427,81 @@
     {
       "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
       "title": "on the touch-capable mobile browser, a drag (not a tap) advances the centred cover and opens nothing",
+      "project": "webkit"
+    },
+    {
+      "file": "Releases + Artists API (live netlify dev)",
+      "title": "unknown release/artist routes 404 on PATCH/DELETE",
+      "project": "desktop"
+    },
+    {
+      "file": "Releases + Artists API (live netlify dev)",
+      "title": "creating a release requires artist, title and releaseDate",
+      "project": "desktop"
+    },
+    {
+      "file": "Releases + Artists API (live netlify dev)",
+      "title": "full lifecycle: scheduled release blocked on an incomplete artist, publishes once the artist profile is complete",
+      "project": "desktop"
+    },
+    {
+      "file": "Releases + Artists API (live netlify dev)",
+      "title": "rejects writes without the admin token",
+      "project": "mobile"
+    },
+    {
+      "file": "Releases + Artists API (live netlify dev)",
+      "title": "unknown release/artist routes 404 on PATCH/DELETE",
+      "project": "mobile"
+    },
+    {
+      "file": "Releases + Artists API (live netlify dev)",
+      "title": "creating a release requires artist, title and releaseDate",
+      "project": "mobile"
+    },
+    {
+      "file": "Releases + Artists API (live netlify dev)",
+      "title": "full lifecycle: scheduled release blocked on an incomplete artist, publishes once the artist profile is complete",
+      "project": "mobile"
+    },
+    {
+      "file": "Releases + Artists API (live netlify dev)",
+      "title": "rejects writes without the admin token",
+      "project": "firefox"
+    },
+    {
+      "file": "Releases + Artists API (live netlify dev)",
+      "title": "unknown release/artist routes 404 on PATCH/DELETE",
+      "project": "firefox"
+    },
+    {
+      "file": "Releases + Artists API (live netlify dev)",
+      "title": "creating a release requires artist, title and releaseDate",
+      "project": "firefox"
+    },
+    {
+      "file": "Releases + Artists API (live netlify dev)",
+      "title": "full lifecycle: scheduled release blocked on an incomplete artist, publishes once the artist profile is complete",
+      "project": "firefox"
+    },
+    {
+      "file": "Releases + Artists API (live netlify dev)",
+      "title": "rejects writes without the admin token",
+      "project": "webkit"
+    },
+    {
+      "file": "Releases + Artists API (live netlify dev)",
+      "title": "unknown release/artist routes 404 on PATCH/DELETE",
+      "project": "webkit"
+    },
+    {
+      "file": "Releases + Artists API (live netlify dev)",
+      "title": "creating a release requires artist, title and releaseDate",
+      "project": "webkit"
+    },
+    {
+      "file": "Releases + Artists API (live netlify dev)",
+      "title": "full lifecycle: scheduled release blocked on an incomplete artist, publishes once the artist profile is complete",
       "project": "webkit"
     }
   ]
