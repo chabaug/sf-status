@@ -12,5 +12,19 @@
       "flaky": 0,
       "total": 356
     }
+  },
+  {
+    "suite": "BAT",
+    "generatedAt": "2026-09-05T18:18:30.484Z",
+    "commit": "6f4407a",
+    "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33983328896",
+    "durationMs": 285354,
+    "counts": {
+      "passed": 365,
+      "failed": 0,
+      "skipped": 3,
+      "flaky": 0,
+      "total": 368
+    }
   }
 ]
