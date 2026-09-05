@@ -1,32 +1,38 @@
 {
   "suite": "BAT",
-  "generatedAt": "2026-09-05T17:31:13.530Z",
-  "commit": "766f217",
-  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33980927113",
-  "durationMs": 219728,
+  "generatedAt": "2026-09-05T18:18:30.484Z",
+  "commit": "6f4407a",
+  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33983328896",
+  "durationMs": 285354,
   "counts": {
-    "passed": 353,
+    "passed": 365,
     "failed": 0,
     "skipped": 3,
     "flaky": 0,
-    "total": 356
+    "total": 368
   },
   "failures": [],
   "skips": [
     {
       "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
       "title": "a real touch tap opens only the release modal, never the cover lightbox too @bat",
-      "project": "desktop"
+      "project": "desktop",
+      "location": "catalogo.spec.js:300",
+      "reason": "needs a touch-capable browser context"
     },
     {
       "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
       "title": "a real touch tap opens only the release modal, never the cover lightbox too @bat",
-      "project": "firefox"
+      "project": "firefox",
+      "location": "catalogo.spec.js:300",
+      "reason": "needs a touch-capable browser context"
     },
     {
       "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
       "title": "a real touch tap opens only the release modal, never the cover lightbox too @bat",
-      "project": "webkit"
+      "project": "webkit",
+      "location": "catalogo.spec.js:300",
+      "reason": "needs a touch-capable browser context"
     }
   ]
 }
