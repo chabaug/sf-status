@@ -1,17 +1,158 @@
 {
   "suite": "BAT",
-  "generatedAt": "2026-09-05T00:08:32.954Z",
-  "commit": "1ec474e",
-  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33931694987",
-  "durationMs": 239085,
+  "generatedAt": "2026-09-05T00:11:56.160Z",
+  "commit": "ac905e7",
+  "runUrl": "https://github.com/chabaug/segunda-fundacion-web/actions/runs/33931873478",
+  "durationMs": 256385,
   "counts": {
     "passed": 245,
-    "failed": 0,
+    "failed": 28,
     "skipped": 3,
     "flaky": 0,
-    "total": 248
+    "total": 276
   },
-  "failures": [],
+  "failures": [
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "slugify: lowercases, strips diacritics/punctuation, collapses to dashes",
+      "project": "desktop"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "isArtistComplete: requires both a non-empty bio and a photoKey",
+      "project": "desktop"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: a due release only publishes once its artist is complete",
+      "project": "desktop"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: a release with no matching artist at all is blocked, not crashed on",
+      "project": "desktop"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: leaves future-dated and already-published releases untouched",
+      "project": "desktop"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "toPublicRelease: strips internal fields, maps coverKey to a URL",
+      "project": "desktop"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "toPublicArtist: principal[] only lists this artist's PUBLISHED releases",
+      "project": "desktop"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "slugify: lowercases, strips diacritics/punctuation, collapses to dashes",
+      "project": "mobile"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "isArtistComplete: requires both a non-empty bio and a photoKey",
+      "project": "mobile"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: a due release only publishes once its artist is complete",
+      "project": "mobile"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: a release with no matching artist at all is blocked, not crashed on",
+      "project": "mobile"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: leaves future-dated and already-published releases untouched",
+      "project": "mobile"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "toPublicRelease: strips internal fields, maps coverKey to a URL",
+      "project": "mobile"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "toPublicArtist: principal[] only lists this artist's PUBLISHED releases",
+      "project": "mobile"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "slugify: lowercases, strips diacritics/punctuation, collapses to dashes",
+      "project": "firefox"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "isArtistComplete: requires both a non-empty bio and a photoKey",
+      "project": "firefox"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: a due release only publishes once its artist is complete",
+      "project": "firefox"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: a release with no matching artist at all is blocked, not crashed on",
+      "project": "firefox"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: leaves future-dated and already-published releases untouched",
+      "project": "firefox"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "toPublicRelease: strips internal fields, maps coverKey to a URL",
+      "project": "firefox"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "toPublicArtist: principal[] only lists this artist's PUBLISHED releases",
+      "project": "firefox"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "slugify: lowercases, strips diacritics/punctuation, collapses to dashes",
+      "project": "webkit"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "isArtistComplete: requires both a non-empty bio and a photoKey",
+      "project": "webkit"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: a due release only publishes once its artist is complete",
+      "project": "webkit"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: a release with no matching artist at all is blocked, not crashed on",
+      "project": "webkit"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "sweepScheduled: leaves future-dated and already-published releases untouched",
+      "project": "webkit"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "toPublicRelease: strips internal fields, maps coverKey to a URL",
+      "project": "webkit"
+    },
+    {
+      "file": "releases-store.mts pure logic @bat",
+      "title": "toPublicArtist: principal[] only lists this artist's PUBLISHED releases",
+      "project": "webkit"
+    }
+  ],
   "skips": [
     {
       "file": "Catálogo — Cover Flow (pointer-driven, ported from Bateristico)",
